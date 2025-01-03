@@ -4,7 +4,7 @@ Open source Android application made using Android Studio.
 
 Coding Languages Used: Java + XML
 
-API's: none
+API's: none.
 
 Features
 -
