@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.Projectx.AppWidget.Container"
+    android:id="@+id/widget_root_view"
+    android:theme="@style/Theme.Projectx.AppWidgetContainer"
+    android:layout_width="match_parent"
+    android:background="@drawable/widgetbackround"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/Widget.Projectx.AppWidget.InnerView"
+        android:id="@+id/appwidget_text"
+        android:clickable="false"
+        android:background="@drawable/widgetbr"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="S O S"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:padding="16sp"
+        android:fontFamily="@font/poppins_bold"
+        android:contentDescription="@string/appwidget_text" />
+</RelativeLayout>
